@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  min-height:100%;
+  background:linear-gradient(90deg, rgba(198, 30, 210, 0.4), rgba(0, 198, 246, 0.4)), url(img_1.jpg);
+  background-size:cover;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	padding: 20px;
+}
+
+.link-access {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	border-radius: 15px;
+	
+}
+
+h1 {
+	color: white;
+}
+
+.small-bar{
+	padding: 10px;
+	font-size: 30px;
+	background-color: #BF40BF;
+	color: white;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+ul,li {
+	text-align: center;
+	align-items: center;
+}
