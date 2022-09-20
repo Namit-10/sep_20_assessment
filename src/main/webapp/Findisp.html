@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Display</title>
+<link rel='stylesheet' href='inpStyle.css'>
+</head>
+<body style="min-height:100%;
+  background:linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img_6.jpg);
+  background-size:cover;">
+	<center>
+	<form action='DisplayFinalTeam' method='get'>
+		<div class="input-details-final" style="margin-top: 100px">
+		
+		<div class="small-bar-disp-final">Enter the details for final team</div>
+		<div class="form-body-det">
+		<span><small>The total number of players in the team is 11</small></span><br><br>
+		<span><small>The minimum number of bowlers is 3 and there can be a maximum of 1 wicketkeeper</small></span><br><br>
+		Enter the number of bowlers : <input type="number" min=3 max=10 name="numberBowlers"><br><br>
+		No of Wicket Keepers : <input type="number" min=0 max=1 name="numberWicketKeepers"><br><br>
+		
+		
+		<input type="submit" class="create-final-button" value="Create Final List">
+		</div>
+		</div>
+	</form>
+	</center>
+	
+</body>
+</html>
